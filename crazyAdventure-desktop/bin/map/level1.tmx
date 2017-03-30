@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="map_bg" tilewidth="32" tileheight="32">
+  <image source="map_bg.jpg" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="2" name="stone" tilewidth="32" tileheight="32">
+  <image source="stone.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="3" name="passArea" tilewidth="32" tileheight="32">
+  <image source="passArea.png" width="192" height="128"/>
+ </tileset>
+ <tileset firstgid="27" name="light" tilewidth="32" tileheight="32">
+  <image source="light.jpg" width="32" height="96"/>
+ </tileset>
+ <tileset firstgid="30" name="bone" tilewidth="32" tileheight="32">
+  <image source="bone.png" width="126" height="64"/>
+ </tileset>
+ <tileset firstgid="36" name="zhuzi" tilewidth="32" tileheight="32">
+  <image source="zhuzi.png" width="64" height="128"/>
+ </tileset>
+ <layer name="bg" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0kFqJFAMxNDM/S89F8ji02mQbKvg7Y3wz49v//KrSQ2No5tYTWpoHN3EalJD4+gmVpMaGkc3sZrU0Di6idWkhsbRTawmNTSObmI1qaFxdBOrSQ2No5tYTWpoHN3EalJD4+gmVpMaGkc3sZrU0Di6yUS2hsbRTSayNTSObjKRraFxdJOJbA2No5tMZGtoHN1kIltD4+gmE9kaGkc3mcjW0Di6yUS2hsbRTSayNTSObjLRpw2nj+6+3ae9p4/unv4q/dXr6H7pr9JfvY7ul/4q/dXr6H7pr9JfvY7ul1l/RXdJf5WbP/LJ6Jbpr9JfvY5umf4q/dXr6Jbpr9JfvY5umf4q/dXr6JZx/hXdIkmSJEmSJEmSJL/76+j74/TX0ffH9Q/fGt0h/VX8LKM7pL+Kn2V0h/RX8bOM7pD+Kn4TRzdLf5X+6nV0s/RX6a9eRzdLf5X+6nV0s/RX6a9eRzdLf5X+6puju163dXTX67aO7nrd1tFdr9s6uut1W0d3vW7r6K7XbR3d9bqto7tet3V01+u2ju563dbRXa/bOrrrdVtHd71u6+iu120d3fW6raO7Xrd1dNfrto7uet3W0V2v2zq663VbR3e9buvortdtHd31um/tP1ejKjQ=
+  </data>
+ </layer>
+ <layer name="collision" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztmktSxDAMBSlOw+f+94MNCxgzsSTLenK6q7yZiZRnpwnJJC8verwyhqPTGiqimqsSj1dVqB4/1VyV4FUc1VyV4FUc1VyV4FUc1VyV4FUc1VyV7PYqUq96/FRzVYJXcVRzVYJXcVRzVYJXcVRzVYJXcTy5VOeyitVeZT6vUT0WePUI56s4ePWI9byBV4/glQ28mgOvbODVHHhlA6/mwCsbeDUHXtnI8CqC6rHAKxt4NQde2cCrOfDKBl7N4fWqYuzM8WzuM58pZK1k5/mqy31PllfdyfYdr+a3t2yjTvYc7u6V528Tr/L6n+CVUs/d4FVsf3g1Bq9i+8OrMXgV2x9ejan0KuO7me9X1UTqdvfcDV75ayJ1u3vuBq/8NZG63T13g1f+mkjd7p6rUHlmVOWVZ6zolZlFAZVsXc5XK/jPq5NQmQ9enYXKfPDqLFTmg1dnoTIfvDoLlfkoeeW9N4veD56EynwqvKoCr/aBV2ehMh+8OosO8/FmVJ1bB68yriHViHilOjpkPZ3Tzlfq4FVO3d3Bq5y6u4NXOXV3Z4dX1deOpw5lOmTM4q7z3gFeQQZ4BRngFWRwh2vI/+iauwMr1rbr8emaexXq96tdj0/X3JkorYlSFgtdc2eitCZKWSx0zZ2J0pooZbHQNXcmSmuilMVC19yZKK2JUhYLXXNnorQmSlksdM29itH8ldZEKYuFrrlX0cGrVb+XVb97ojpG6xRF3SsLSrmzs2T2x6vfKOXGq5y+FSjlxqucvhUo5carnL4VKOXGq5y+FSjlxqucvhUo5carnL4VKOXGq5y+FSjlxqucvhV4f1++6unNkgleaYFXe3rj1drto3UK4JUdvLoGr+zg1TV4ZQevrsErO6d4xXW7Fni1pzderd0+WqfQH6/s4FV+77fv8T7x2UngVaz3jx/Pnmd8fI/PP3Wjz04Cr2K9I37wf9C/fbROof+z3pH94pV/+2idQn+8soNXsd54NQavYr3xagxexXrj1RgVr2beP6wc3nldzflUdnl1Kng1Bq9i4NUYvIqBV2PwKgZejcGrGHg1Bq9ieN9LuMP7DAz/+Hnu7K1bxRdtpQ0t
+  </data>
+ </layer>
+ <layer name="decorate" width="150" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt29dqxDAQBdBAeu+99///w8xLIA9L2CZrxnsO3JcFY4FsrzUjr60BMI/73gNglB56D4BReuw9AAAGM8Q76lPkOfIywLnIYYh31NfIW+R9gHOtiuz3qnfUmnrdq2owtKAGQwv+3wAAAFhE9rouNenBAOSlB0YLemC0oAfGqrAupwXrcgCAWqwLaMG6YD5q6HlVnhs19Lwqz40ael7mBgAAAAAma1Hr12tdvmo9mRa1fr3W5avWk1Hrr8E8AQAAf61HNiKbka3IdmSn64gYg93IXmQ/chA5jBzNcLz6JZMcR04ip5GzyHnkYobj1S+Z5DJyFbmO3ERuI3ddRwQAQG9Z1qRZxsFyZFmTZhkHDMFzlBY8RwEA8qr2TQ81VPumhxp80wMAAKwqPVxa0MMFAAAAAGirR33/I/I5xW/Utez6/jTXx1fke4rfxsLe6sXNe32M+brKvrdaT7qm7Hur9aQBAPhlzUEL1hzA2KhN00L22jQ1Za9N08e8+xLsZ+A/+s4As/kB7I8S3g==
+  </data>
+ </layer>
+ <objectgroup name="objects" width="150" height="100">
+  <object name="hero" x="107" y="1604" width="21" height="25"/>
+  <object name="boss" x="3780" y="2860"/>
+  <object name="enemy" x="688" y="1248"/>
+  <object name="enemy" x="696" y="1392"/>
+  <object name="enemy" x="1088" y="1424" width="8"/>
+  <object name="enemy" x="1160" y="1424"/>
+  <object name="enemy" x="1112" y="1008"/>
+  <object name="enemy" x="1376" y="1208"/>
+  <object name="enemy" x="1464" y="1440" width="16"/>
+  <object name="enemy" x="776" y="1840"/>
+  <object name="enemy" x="1088" y="2248" width="8"/>
+  <object name="enemy" x="1704" y="1904"/>
+  <object name="enemy" x="1760" y="2416"/>
+  <object name="enemy" x="1384" y="2632" height="8"/>
+  <object name="enemy" x="1344" y="3024"/>
+  <object name="enemy" x="1752" y="2936"/>
+  <object name="enemy" x="1896" y="3072" width="8" height="8"/>
+  <object name="enemy" x="2288" y="2648"/>
+  <object name="enemy" x="2488" y="2416" width="8"/>
+  <object name="enemy" x="2304" y="2256"/>
+  <object name="enemy" x="2608" y="2816" width="8" height="8"/>
+  <object name="enemy" x="2472" y="2592"/>
+  <object name="enemy" x="2192" y="2808" height="8"/>
+  <object name="enemy" x="2912" y="2336"/>
+  <object name="enemy" x="2936" y="2544" height="8"/>
+  <object name="enemy" x="3192" y="2360"/>
+  <object name="enemy" x="3104" y="2216"/>
+  <object name="enemy" x="3376" y="2616" width="8"/>
+  <object name="enemy" x="3216" y="2824"/>
+  <object name="enemy" x="2984" y="2752"/>
+  <object name="enemy" x="2240" y="3088"/>
+  <object name="enemy" x="2568" y="3088" width="8"/>
+  <object name="enemy" x="2904" y="3088" height="16"/>
+  <object name="enemy" x="3296" y="3088" width="8"/>
+  <object name="enemy" x="3560" y="3072" width="8"/>
+  <object name="enemy" x="3616" y="2744" width="8"/>
+  <object name="enemy" x="3704" y="2224"/>
+  <object name="enemy" x="3984" y="2376"/>
+  <object name="enemy" x="3800" y="2544"/>
+  <object name="enemy" x="3728" y="2432"/>
+  <object name="enemy" x="4104" y="2096"/>
+  <object name="enemy" x="4112" y="2264"/>
+  <object name="enemy" x="4112" y="2448"/>
+  <object name="enemy" x="4128" y="2576"/>
+  <object name="enemy" x="4120" y="2664"/>
+  <object name="enemy" x="4096" y="2824"/>
+  <object name="enemy" x="4064" y="3080"/>
+  <object name="enemy" x="4088" y="2976"/>
+  <object name="enemy" x="3816" y="2928"/>
+  <object name="enemy" x="1728" y="184"/>
+  <object name="enemy" x="1800" y="344"/>
+  <object name="enemy" x="1752" y="480"/>
+  <object name="enemy" x="2104" y="456" width="8" height="8"/>
+  <object name="enemy" x="2264" y="168"/>
+  <object name="enemy" x="2256" y="440" width="24" height="24"/>
+  <object name="enemy" x="2576" y="576" width="32"/>
+  <object name="enemy" x="2968" y="288"/>
+  <object name="enemy" x="2728" y="200"/>
+  <object name="enemy" x="2888" y="536" width="32" height="8"/>
+  <object name="enemy" x="3224" y="600" width="24" height="8"/>
+  <object name="enemy" x="1464" y="256"/>
+  <object name="enemy" x="1312" y="656"/>
+  <object name="enemy" x="1440" y="928" width="16"/>
+  <object name="enemy" x="1760" y="832" height="8"/>
+  <object name="enemy" x="1712" y="1184" width="8" height="8"/>
+  <object name="enemy" x="1952" y="1152"/>
+  <object name="enemy" x="1944" y="1512"/>
+  <object name="enemy" x="2128" y="1448"/>
+  <object name="enemy" x="2136" y="968"/>
+  <object name="enemy" x="2184" y="760"/>
+  <object name="enemy" x="2400" y="968"/>
+  <object name="enemy" x="2432" y="1200"/>
+  <object name="enemy" x="2160" y="1168"/>
+  <object name="enemy" x="2424" y="1336" width="8" height="8"/>
+  <object name="enemy" x="2632" y="1528"/>
+  <object name="enemy" x="2800" y="1544" width="16" height="8"/>
+  <object name="enemy" x="3080" y="1528" width="8"/>
+  <object name="enemy" x="3256" y="1536" width="8"/>
+  <object name="enemy" x="3424" y="1552" width="8"/>
+  <object name="enemy" x="3400" y="1504" width="8" height="8"/>
+  <object name="enemy" x="2584" y="1752"/>
+  <object name="enemy" x="2648" y="1896" width="8" height="8"/>
+  <object name="enemy" x="2272" y="1792" width="8" height="48"/>
+  <object name="enemy" x="2176" y="1936" width="48" height="16"/>
+  <object name="enemy" x="2872" y="1800" width="24"/>
+  <object name="enemy" x="3096" y="1920" width="40" height="24"/>
+  <object name="enemy" x="3224" y="1776" width="8"/>
+  <object name="enemy" x="3344" y="1928" width="16" height="24"/>
+  <object name="enemy" x="3400" y="1768" width="8" height="16"/>
+  <object name="enemy" x="2144" y="1688" height="16"/>
+  <object name="enemy" x="2400" y="1968" width="80" height="48"/>
+  <object name="enemy" x="3664" y="928" height="16"/>
+  <object name="enemy" x="3512" y="872"/>
+  <object name="enemy" x="3944" y="224" width="8"/>
+  <object name="enemy" x="4104" y="112" width="40" height="48"/>
+  <object name="enemy" x="4128" y="264" width="8" height="48"/>
+  <object name="enemy" x="4432" y="136" height="8"/>
+  <object name="enemy" x="4672" y="240" width="16" height="48"/>
+  <object name="enemy" x="4576" y="464" width="40" height="40"/>
+  <object name="enemy" x="4480" y="552" width="24" height="24"/>
+  <object name="enemy" x="4632" y="648" width="32" height="40"/>
+  <object name="enemy" x="3896" y="944" width="48" height="24"/>
+  <object name="enemy" x="2760" y="1216"/>
+  <object name="enemy" x="3312" y="1176" height="40"/>
+  <object name="enemy" x="2976" y="1344" width="16" height="24"/>
+ </objectgroup>
+</map>

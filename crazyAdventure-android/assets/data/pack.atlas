@@ -1,0 +1,444 @@
+
+pack.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+juqing
+  rotate: false
+  xy: 1, 572
+  size: 368, 450
+  orig: 368, 450
+  offset: 0, 0
+  index: -1
+bigfire
+  rotate: false
+  xy: 371, 782
+  size: 513, 240
+  orig: 513, 240
+  offset: 0, 0
+  index: -1
+wupin
+  rotate: false
+  xy: 1, 240
+  size: 330, 330
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+fire_smoke
+  rotate: false
+  xy: 371, 510
+  size: 351, 270
+  orig: 351, 270
+  offset: 0, 0
+  index: -1
+fire_smoke_rotate
+  rotate: false
+  xy: 333, 157
+  size: 270, 351
+  orig: 270, 351
+  offset: 0, 0
+  index: -1
+bt_new
+  rotate: false
+  xy: 1, 88
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+hero
+  rotate: false
+  xy: 724, 516
+  size: 160, 264
+  orig: 160, 264
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 886, 782
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 886, 540
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+fire_cloud
+  rotate: false
+  xy: 1, 26
+  size: 400, 60
+  orig: 400, 60
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 605, 268
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 727, 274
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 849, 274
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+bt_resume
+  rotate: false
+  xy: 403, 5
+  size: 300, 150
+  orig: 300, 150
+  offset: 0, 0
+  index: -1
+fire_fire
+  rotate: false
+  xy: 727, 247
+  size: 240, 25
+  orig: 240, 25
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 705, 109
+  size: 306, 136
+  orig: 306, 136
+  offset: 0, 0
+  index: -1
+hpInfo_bg
+  rotate: false
+  xy: 705, 48
+  size: 149, 59
+  orig: 149, 59
+  offset: 0, 0
+  index: -1
+fire_button
+  rotate: false
+  xy: 856, 43
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+button1
+  rotate: false
+  xy: 705, 6
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+button_pack
+  rotate: false
+  xy: 605, 210
+  size: 80, 56
+  orig: 80, 56
+  offset: 0, 0
+  index: -1
+button2
+  rotate: false
+  xy: 827, 1
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+hp
+  rotate: false
+  xy: 886, 525
+  size: 87, 13
+  orig: 87, 13
+  offset: 0, 0
+  index: -1
+magic
+  rotate: false
+  xy: 1, 11
+  size: 84, 13
+  orig: 84, 13
+  offset: 0, 0
+  index: -1
+hero_death
+  rotate: false
+  xy: 605, 173
+  size: 60, 35
+  orig: 60, 35
+  offset: 0, 0
+  index: -1
+button_pause
+  rotate: false
+  xy: 303, 99
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+hp_bg
+  rotate: false
+  xy: 1, 1
+  size: 64, 8
+  orig: 64, 8
+  offset: 0, 0
+  index: -1
+gem_black
+  rotate: false
+  xy: 971, 463
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+gem_blue
+  rotate: false
+  xy: 971, 401
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+gem_green
+  rotate: false
+  xy: 971, 339
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+gem_red
+  rotate: false
+  xy: 971, 277
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+colosebutton_down
+  rotate: false
+  xy: 969, 247
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+colsebutton_up
+  rotate: false
+  xy: 333, 545
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+enemy_shot
+  rotate: false
+  xy: 986, 91
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fireDown
+  rotate: false
+  xy: 687, 246
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+fireLeft
+  rotate: false
+  xy: 949, 30
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+fireRight
+  rotate: false
+  xy: 87, 13
+  size: 20, 11
+  orig: 20, 11
+  offset: 0, 0
+  index: -1
+fireUp
+  rotate: false
+  xy: 667, 188
+  size: 11, 20
+  orig: 11, 20
+  offset: 0, 0
+  index: -1
+
+pack2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+title
+  rotate: false
+  xy: 1, 400
+  size: 300, 108
+  orig: 300, 108
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 1, 158
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 123, 158
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+jiejie
+  rotate: false
+  xy: 1, 43
+  size: 200, 113
+  orig: 200, 113
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 245, 158
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+angel
+  rotate: false
+  xy: 303, 400
+  size: 138, 108
+  orig: 138, 108
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 367, 158
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 489, 268
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 611, 268
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 733, 268
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+boss2
+  rotate: false
+  xy: 855, 268
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+boss4
+  rotate: false
+  xy: 489, 66
+  size: 140, 200
+  orig: 140, 200
+  offset: 0, 0
+  index: -1
+boss3
+  rotate: false
+  xy: 631, 26
+  size: 120, 240
+  orig: 120, 240
+  offset: 0, 0
+  index: -1
+hero_actions
+  rotate: false
+  xy: 753, 2
+  size: 80, 264
+  orig: 80, 264
+  offset: 0, 0
+  index: -1
+boss1
+  rotate: false
+  xy: 203, 46
+  size: 110, 110
+  orig: 110, 110
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 835, 166
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+touchpad
+  rotate: false
+  xy: 315, 92
+  size: 128, 64
+  orig: 128, 64
+  offset: 0, 0
+  index: -1
+button3
+  rotate: false
+  xy: 1, 1
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+button4
+  rotate: false
+  xy: 315, 50
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+button5
+  rotate: false
+  xy: 835, 124
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+button6
+  rotate: false
+  xy: 835, 82
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+button7
+  rotate: false
+  xy: 835, 40
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+gem_yellow
+  rotate: false
+  xy: 443, 448
+  size: 40, 60
+  orig: 40, 60
+  offset: 0, 0
+  index: -1
+music_open
+  rotate: false
+  xy: 937, 212
+  size: 54, 54
+  orig: 54, 54
+  offset: 0, 0
+  index: -1
+music_close
+  rotate: false
+  xy: 957, 157
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1

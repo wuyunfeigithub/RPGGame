@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="18" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="level5" tilewidth="32" tileheight="32">
+  <image source="level5.jpg" width="1024" height="576"/>
+ </tileset>
+ <tileset firstgid="577" name="blank" tilewidth="32" tileheight="32">
+  <image source="blank.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="578" name="back" tilewidth="32" tileheight="32">
+  <image source="back.png" width="128" height="117"/>
+ </tileset>
+ <layer name="bg" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJwV1YOyGAYAAMEX27Zt225j27Zt20kb27Zt27Ztdztz+w0XKCAgIDBBCEowghOCkIQiNGEISzjCE4GIRCIyUYhKNKITg5jEIjZxiEs84pOAhCQiMUlISjKSk4KUpCI1aUhLOtKTgYxkIjNZyEo2spODnOQiN3nISz7yU4CCFKIwRShKMYpTgpKU4i/+pjRlKEs5ylOBilSiMlWoSjWqU4Oa1KI2dahLPerTgIY0ojFNaEozmtOClrSiNW1oSzva04GOdKIzXehKN7rTg570ojd96Es/+jOAgQxiMEMYyjCGM4KRjGI0YxjLOMYzgYlMYjJTmMo//Ms0pjODmcxiNnOYyzzms4CFLGIxS1jKMpazgpWsYjVrWMs61rOBjWxiM1vYyja2s4Od7GI3e9jLPvZzgIMc4jBHOMoxjnOCk5ziNGc4yznOc4GLXOIyV7jKNa5zg5vc4jZ3uMs97vOAhzziMU94yjOe84KXvOI1b3jLO97zgY984jNf+Mo3vvODn/ziN38ICCQCE4SgBCM4IQhJKEIThrCEIzwRiEgkIhOFqEQjOjGISSxiE4e4xCM+CUhIIhKThKQkIzkpSEkqUpOGtKQjPRnISCYyk4WsZCM7OchJLnKTh7zkIz8FKEghClOEohSjOCUoSSn+4m9KU4aylKM8FahIJSpThapUozo1qEktalOHutSjPg1oSCMa04SmNKM5LWhJK1rThra0oz0d6EgnOtOFrnSjOz3oSS9604e+9KM/AxjIIAYzhKEMYzgjGMkoRjOGsYxjPBOYyCQmM4Wp/MO/TGM6M5jJLGYzh7nMYz4LWMgiFrOEpSxjOStYySpWs4a1rGM9G9jIJjazha1sYzs72MkudrOHvexjPwc4yCEOc4SjHOM4JzjJKU5zhrOc4zwXuMglLnOFq1zjOje4yS1uc4e73OM+D3jIIx7zhKc84zkveMkrXvOGt7zjPR/4yCc+84WvfOM7P/jJL37zh//HH4jABCEowQhOCEISitCEISzhCE8EIhKJyEQhKtGITgxiEovYxCEu8YhPAhKSiMQkISnJSE4KUpKK1KQhLelITwYykonMZCEr2chODnKSi9zkIS/5yE8BCvIfrOoIsg==
+  </data>
+ </layer>
+ <layer name="collision" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJzFlUkOACAIA4k/8/+f8k5AZWkh4WTsxLIoEo+97GSFxULwvXd6/C5PujzN6CDq+auH7KWXLqOPPQZ7hjSLObsWc5LP3l0en70/tf/s3rNmYIqtzxB+RHRR+zfzD3SxK3ereYsDVtYbOQ==
+  </data>
+ </layer>
+ <layer name="decorate" width="32" height="18">
+  <data encoding="base64" compression="zlib">
+   eJztzckJADAMA0Hh0nKf/bcTVRFj0MC+F4gpGZBZYdX+/xufnQ02Hf6Lz80Ouw5/ERGRyB60lgNz
+  </data>
+ </layer>
+ <objectgroup name="objects" width="32" height="18">
+  <object name="hero" x="139" y="401" width="16" height="11"/>
+  <object name="boss" x="496" y="284" width="24" height="19"/>
+ </objectgroup>
+</map>
