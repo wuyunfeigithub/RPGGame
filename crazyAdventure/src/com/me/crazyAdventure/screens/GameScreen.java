@@ -311,7 +311,7 @@ public class GameScreen implements Screen {
 
 		// FPS
 		LabelStyle style = new LabelStyle(new BitmapFont(Gdx.files.internal("data/font.fnt"), false), Color.WHITE);
-		FPS = new Label("Jilin University", style);
+		FPS = new Label("crazyAdventure", style);
 		FPS.setFontScale(0.5f, 0.5f);
 //		FPS = new Label("FPS: " + Gdx.graphics.getFramesPerSecond(), style);
 		FPS.setHeight(height * 0.1f);
